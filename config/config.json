@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "breadcumb-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/breadcumb/BreadcumbApplicationCustomizer.js",
+          "manifest": "./src/extensions/breadcumb/BreadcumbApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "BreadcumbApplicationCustomizerStrings": "lib/extensions/breadcumb/loc/{locale}.js"
+  }
+}
